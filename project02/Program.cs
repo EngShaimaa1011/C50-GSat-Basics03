@@ -57,6 +57,12 @@ namespace project02
             Console.WriteLine(Result2);
 
 
+
+            // Q7 - Build the same sentence again, but using string.Format(). 
+            Console.WriteLine("the answer of question 7");
+            string Result3 = string.Format("Book: {0} , pages: {1}",title2 ,pages );
+            Console.WriteLine(Result3);
+
         }
     }
 }

@@ -154,6 +154,17 @@ namespace project02
 
 
 
+            // Q15- Using the same books array, use a foreach loop to print every book title.
+            Console.WriteLine("the answer of question 15 ");
+            foreach(string book in books)
+            {
+                Console.WriteLine(book);
+            }
+
+
+
+
+
         }
     }
 }

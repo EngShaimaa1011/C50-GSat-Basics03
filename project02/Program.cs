@@ -63,6 +63,21 @@ namespace project02
             string Result3 = string.Format("Book: {0} , pages: {1}",title2 ,pages );
             Console.WriteLine(Result3);
 
+
+
+
+            //Q8- Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than 300, otherwise prints "Short Book".
+            Console.WriteLine("the answer of question 8");
+            if (pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            };
+
+
         }
     }
 }

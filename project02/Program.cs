@@ -43,6 +43,12 @@ namespace project02
             Console.WriteLine(sb);
 
 
+            // Q5- Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code, Pages: 464" using the + operator. 
+            Console.WriteLine("the answer of question 5");
+            string title2 = "clean code";
+            int pages = 464;
+            string Result = $"Book: {title2} , pages : {pages} ";
+            Console.WriteLine(Result);
 
         }
     }

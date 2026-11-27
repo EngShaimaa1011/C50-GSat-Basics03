@@ -50,6 +50,13 @@ namespace project02
             string Result = $"Book: {title2} , pages : {pages} ";
             Console.WriteLine(Result);
 
+
+            // Q6- Build the same sentence as above, but using string interpolation ($"..."). 
+            Console.WriteLine("the answer of question 6");
+            string Result2 = "Book: "+ title2 + ", pages:" + pages;
+            Console.WriteLine(Result2);
+
+
         }
     }
 }

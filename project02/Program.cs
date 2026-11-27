@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using System.Security.Cryptography;
+using System.Text;
 using System.Threading.Channels;
 
 namespace project02
@@ -26,6 +27,14 @@ namespace project02
             Console.WriteLine($"Are str1 and str2 the same ref in memory? {areTheSameRef}");
 
 
+
+            // Q3- Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same  object.Print the final result.
+            Console.WriteLine("the answer of question 3");
+
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Book List");
+            sb.Append("- updated");
+            Console.WriteLine(sb);
 
 
 

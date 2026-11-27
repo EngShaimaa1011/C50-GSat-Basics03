@@ -163,6 +163,19 @@ namespace project02
 
 
 
+            //Q16- Using the same books array, loop through it and print each title, but stop completely (break) once   you reach "Refactoring".
+
+            Console.WriteLine("the answer of question 16 ");
+            foreach (string book in books)
+            {
+                if (book == "Refactoring")
+                {
+                    break;
+                }
+
+                Console.WriteLine(book);
+            }
+
 
 
         }

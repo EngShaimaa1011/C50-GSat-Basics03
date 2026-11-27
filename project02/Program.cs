@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Drawing;
+using System.Security.Cryptography;
 using System.Threading.Channels;
 
 namespace project02
@@ -16,9 +17,13 @@ namespace project02
             Console.WriteLine(title);
             Console.WriteLine(upperTitle);
 
+           // Q2- Declare two separate string variables, both set to the literal "Clean Code". Use ReferenceEquals()  to check if they point to the same object in memory.
 
-
-
+            Console.WriteLine("the answer of question 2");
+            string str1 = "clean code";
+            string str2 = "clean code";
+            bool areTheSameRef = ReferenceEquals(str1, str2);
+            Console.WriteLine($"Are str1 and str2 the same ref in memory? {areTheSameRef}");
 
 
 

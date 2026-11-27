@@ -177,6 +177,18 @@ namespace project02
             }
 
 
+            // Q17- Using the same books array, print every title except "The Pragmatic Programmer" (skip it with continue, don't stop the loop).
+            Console.WriteLine("the answer of question 17 ");
+
+            foreach (string book in books)
+            {
+                if (book == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+
+                Console.WriteLine(book);
+            }
 
         }
     }

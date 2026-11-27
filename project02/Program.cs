@@ -142,6 +142,17 @@ namespace project02
                 x++;
             }
 
+            // Q-14 Write a do-while loop that prints "Checking book..." exactly 3 times. 
+            Console.WriteLine("the answer of question 14 ");
+            int z = 0;
+            do
+            {
+                Console.WriteLine("Checking book...") ;
+                z++;
+                
+            }while( z < 3);
+
+
 
         }
     }

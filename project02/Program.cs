@@ -132,8 +132,15 @@ namespace project02
 
 
 
+            //Q13- Using the same books array, use a while loop to print every book title.
 
-
+            Console.WriteLine("the answer of question 13 ");
+            int x = 0;
+            while (x < books.Length)
+            {
+                Console.WriteLine(books[x]);
+                x++;
+            }
 
 
         }
